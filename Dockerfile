@@ -1,5 +1,5 @@
 #Dockerfile
-FROM fedora:49236bc2f0da
+FROM fedora:26
 MAINTAINER AlexaZhou <AlexaZhou@163.com>
 
 #COPY 
