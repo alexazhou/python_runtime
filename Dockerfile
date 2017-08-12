@@ -7,6 +7,7 @@ COPY ./requirements.txt /root/image_info/
 
 #install package
 RUN yum install python3 iputils openssl-static net-tools -y && \
-    python3 -m pip install -r /root/image_info/requirements.txt		
+    python3 -m pip install -r /root/image_info/requirements.txt && \
+    yum clean all	
 
 #End
