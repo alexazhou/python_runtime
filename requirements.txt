@@ -1,5 +1,5 @@
 aiomysql==0.0.9
 peewee-async==0.5.7
-tornado==4.5.1
+tornado==6.3.2
 aiosmtplib==1.0.1
 aiohttp==3.7.4
